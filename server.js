@@ -52,20 +52,111 @@ const itinerary = [
     day: 'Day 1',
     title: 'Ponda / Betki / Savoi',
     items: [
-      { time: '08:45–09:15', place: 'Breakfast at home' },
+      { time: '08:45–09:15', place: 'Breakfast at home (Priol)' },
       {
-        time: '09:30–13:15',
-        place: 'Keri Bridge, Vijayadurga, Anant, Balaji, Mangeshi',
+        time: '09:30–11:45',
+        place: 'Keri Bridge, Vijayadurga Temple, Anant Temple',
+      },
+      {
+        time: '11:45–13:15',
+        place: 'Tirupati Balaji Temple, Mangeshi Temple',
       },
       { time: '13:15–14:00', place: 'Lunch at home' },
       {
-        time: '16:00–20:00',
-        place:
-          'Mahalaxmi, Nageshi, Ganapati, Katamgal Dada, Shantadurga, Narasimha',
+        time: '16:00–17:15',
+        place: 'Mahalaxmi Temple, Nageshi Temple',
+      },
+      {
+        time: '17:15–18:30',
+        place: 'Ganapati Temple, Katamgal Dada Temple',
+      },
+      {
+        time: '18:30–20:00',
+        place: 'Shantadurga Temple & Narasimha Temple (Veling–Mardol)',
       },
     ],
   },
+  {
+    day: 'Day 2',
+    title: 'Aguada / Chapora / Mall / Panaji / Dona Paula',
+    items: [
+      { time: '07:45–08:15', place: 'Breakfast at home' },
+      { time: '08:30–10:30', place: 'Aguada Fort (walk + photos)' },
+      { time: '10:30–12:15', place: 'Chapora Fort (climb + views)' },
+      { time: '12:30–14:15', place: 'Mall De Goa – lunch + roaming' },
+      { time: '14:15–15:00', place: 'Bodgeshwar Temple (Mapusa)' },
+      { time: '15:00–17:00', place: 'Old Goa & Panaji city drive' },
+      { time: '17:00–18:45', place: 'Dona Paula Jetty – sunset, snacks' },
+      { time: '18:45–19:45', place: 'Drive back home (Priol)' },
+    ],
+  },
+  {
+    day: 'Day 3',
+    title: 'Verna / Vasco / Betalbatim / Cabo De Rama',
+    items: [
+      { time: '08:15–08:45', place: 'Breakfast at home' },
+      { time: '09:00–10:00', place: 'Mahalsa Temple (Verna)' },
+      { time: '10:00–11:00', place: 'Birla Temple (Vasco)' },
+      { time: '11:15–13:30', place: 'Betalbatim Beach – chill & play' },
+      { time: '13:30–14:40', place: 'Lunch at Orzo' },
+      { time: '14:40–15:30', place: 'Drive to Cabo De Rama Fort' },
+      { time: '15:30–16:30', place: 'Cabo De Rama Fort – viewpoints' },
+      { time: '16:30–17:20', place: 'Pebble Beach (careful descent)' },
+      { time: '17:20–18:20', place: 'Hidden Cave Beach (if energy okay)' },
+      { time: '18:20–19:30', place: 'The Cape Goa Café – snacks & sunset' },
+    ],
+  },
+  {
+    day: 'Day 4',
+    title: 'Tambdi Surla / Netravali / Spice Farm / Chandreshwar',
+    items: [
+      { time: '07:10–07:40', place: 'Breakfast at home' },
+      { time: '08:00–09:00', place: 'Drive to Tambdi Surla Temple' },
+      { time: '09:00–09:50', place: 'Tambdi Surla – temple & nature' },
+      { time: '09:50–11:15', place: 'Drive to Netravali Sanctuary' },
+      { time: '11:15–12:30', place: 'Netravali Wildlife Sanctuary' },
+      { time: '12:30–14:15', place: 'Netravali Spice Farm – tour + lunch' },
+      { time: '14:15–15:15', place: 'Drive to Chandreshwar Parvat' },
+      { time: '15:15–16:15', place: 'Chandreshwar Temple – hilltop views' },
+      { time: '16:15–17:15', place: 'Drive back home' },
+    ],
+  },
+  {
+    day: 'Day 5',
+    title: 'Saptakoteshwar / Maem / Tilari (Maharashtra)',
+    items: [
+      { time: '08:15–08:45', place: 'Breakfast at home' },
+      { time: '09:00–09:40', place: 'Drive to Saptakoteshwar Temple' },
+      { time: '09:40–10:15', place: 'Saptakoteshwar Temple – darshan' },
+      { time: '10:15–10:25', place: 'Drive to Maem Lake' },
+      { time: '10:25–11:00', place: 'Maem Lake – chill & photos' },
+      { time: '11:00–12:15', place: 'Drive to Ghotgewadi (uncle’s place)' },
+      { time: '12:15–14:00', place: 'Lunch + rest at uncle’s house' },
+      {
+        time: '14:00–16:30',
+        place: 'Tilari Dam, Medhe Lake, farm visit – roaming',
+      },
+      { time: '16:30–18:00', place: 'Drive back home (Priol)' },
+    ],
+  },
+  {
+    day: 'Day 6',
+    title: 'Ankola / Karwar / Galgibag – Road Trip',
+    items: [
+      { time: '06:30–06:50', place: 'Light breakfast at home' },
+      { time: '07:00–10:00', place: 'Drive to Aryadurga Temple, Ankola' },
+      { time: '10:00–11:00', place: 'Aryadurga Mandir – darshan' },
+      { time: '11:00–11:45', place: 'Drive to Rock Garden, Karwar' },
+      { time: '11:45–12:30', place: 'Rock Garden – views & photos' },
+      { time: '12:30–13:15', place: 'Lunch in Ankola / Karwar' },
+      { time: '13:15–14:00', place: 'More time at seafront / Rock Garden' },
+      { time: '14:00–15:00', place: 'Drive to Galgibag Beach (South Goa)' },
+      { time: '15:00–17:00', place: 'Galgibag Beach – quiet chill time' },
+      { time: '17:00–18:15', place: 'Drive back home (Priol)' },
+    ],
+  },
 ];
+
 
 // -------------------------
 // ROUTES
