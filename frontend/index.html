@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Goa Trip Tracker</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Goa Trip Tracker</h1>
+    <nav>
+      <button data-tab="itinerary" class="active">Itinerary</button>
+      <button data-tab="expenses">Expenses</button>
+      <button data-tab="checklist">Checklist</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ITINERARY TAB -->
+    <section id="itinerary" class="tab active">
+      <h2>Itinerary</h2>
+      <div id="itinerary-container"></div>
+    </section>
+
+    <!-- EXPENSES TAB -->
+    <section id="expenses" class="tab">
+      <h2>Expenses</h2>
+      <form id="expense-form">
+        <input type="text" name="day" placeholder="Day (e.g. Day 1)" required />
+        <input type="text" name="category" placeholder="Category (Food/Fuel/etc)" required />
+        <input type="number" name="amount" placeholder="Amount" required />
+        <input type="text" name="paidBy" placeholder="Paid by" required />
+        <input type="text" name="note" placeholder="Note (optional)" />
+        <button type="submit">Add Expense</button>
+      </form>
+      <div id="expense-summary"></div>
+      <ul id="expense-list"></ul>
+    </section>
+
+    <!-- CHECKLIST TAB -->
+    <section id="checklist" class="tab">
+      <h2>Checklist</h2>
+      <form id="checklist-form">
+        <input type="text" name="title" placeholder="Item name (e.g. Power bank)" required />
+        <select name="type">
+          <option value="packing">Packing</option>
+          <option value="day">Day-wise</option>
+        </select>
+        <input type="text" name="day" placeholder="Day (optional, e.g. Day 3)" />
+        <button type="submit">Add Item</button>
+      </form>
+      <ul id="checklist-list"></ul>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
