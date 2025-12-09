@@ -208,6 +208,16 @@ app.patch('/api/checklist/:id/toggle', async (req, res) => {
     res.status(400).json({ error: 'Error updating item' });
   }
 });
+// DELETE a checklist item
+app.delete('/api/checklist/:id', async (req, res) => {
+  try {
+    await ChecklistItem.findByIdAndDelete(req.params.id);
+    res.json({ message: 'Item deleted' });
+  } catch (err) {
+    res.status(400).json({ error: 'Error deleting item' });
+  }
+});
+
 
 // -------------------------
 // START SERVER
