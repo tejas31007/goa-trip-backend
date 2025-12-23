@@ -175,4 +175,5 @@ PORT=3000
 
 ## ❤️ About This Project
 
-This app was built overnight out of excitement for the group’s Goa trip — evolving from a simple idea into a fully working system. Created with ❤️, caffeine, and absolutely 0 hours of sleep.
+This app was built overnight out of excitement for the group’s Goa trip — evolving from a simple idea into a fully working system. Created with ❤️, caffeine, and absolutely 0 hours of sleep. Collecting GitHub achievements 🚀
+
